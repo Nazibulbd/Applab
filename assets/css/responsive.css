@@ -26,17 +26,10 @@
      line-height: 50px;
    }
    
-/* =========
-section_1
-=========== */
 
    .img_group{
     flex-direction: column; 
    }
-
-/* =========
-section_2
-=========== */
 
    .inner_box_2{ 
     flex-direction: column; 
@@ -66,10 +59,6 @@ section_2
     margin: 0% 25%;
     justify-content: center;
    }
-   
-/* =========
-section_3
-=========== */
 
    .inner_smart{
     flex-direction: column;
@@ -119,9 +108,10 @@ section_3
     flex-basis: 48%;
 }
 
+
 .button_8{
-  margin-top: 15px;
-  margin: 0% 25%;
+  margin: 0 25%
+
 }
 
    .inner_content .inner_box_7{
@@ -137,8 +127,6 @@ section_3
    .inner_content{
     flex-direction: column-reverse;
    }
-
-
 
 
 
@@ -171,16 +159,25 @@ text-align: center;
    .inner_box_9 .inner_box{
     width: 100%;
     justify-content: center;
+    padding: 0 10%;
    }
-   .inner_box_9 .inner_box .sub_title{
-    
+  
+   .inner_box_9 .inner_img img{
+    width: 100%;
+    height: 100%;
     justify-content: center;
+    padding: 20px;
+   }
+   .inner_box_9 .inner_box{
+    width: 100%;
+    justify-content: center;
+    padding: 0 15%;
+    margin-bottom: 30px;
    }
 
    .inner_box_9 .inner_box .profile{
-    width: 100%;
-    justify-content: center;
    }
+   
 
    .inner_10{
     flex-direction: column;
